@@ -1,0 +1,42 @@
+.options {
+    position: relative;
+}
+.options h2 {
+    font-size: 16px;
+    background-color: #f2f2f2;
+    width: 250px;
+    padding: 12px;
+    border-radius: 5px;
+    color: #444;
+    cursor: pointer;
+}
+.options h2 span {
+    float: right;
+    position: relative;
+    right: 5px;
+    top: 2px;
+    font-size: 14px;
+}
+.options ul {
+    position: absolute;
+    background-color: #FFF;
+    z-index: 5;
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 0px;
+}
+.options ul.active {
+    height: auto;
+    transition:  .3s ease;
+}
+.options ul li {
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 0.4px solid #f0f0f0;
+    transition: .3s ease;
+}
+.options ul li:hover {
+    color: #5fcac7;
+}

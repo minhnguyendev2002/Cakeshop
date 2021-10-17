@@ -1,0 +1,37 @@
+.intro-container {
+    background: url('http://html.cwsthemes.com/bellaria/images/background/34.jpg');
+    position: relative;
+    padding: 140px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.intro-container::before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* background-color: rgba(39,43,49,0.1); */
+}
+.intro-container h1 {
+    font-family: 'Merienda One', cursive;
+    font-size: 51px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.intro-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-container ul li {
+    font-size: 16px;
+    margin: 0 5px;
+    color: #FFF;
+    font-weight: 500;
+}

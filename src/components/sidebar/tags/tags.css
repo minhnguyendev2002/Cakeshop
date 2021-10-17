@@ -1,0 +1,62 @@
+.tags-box {
+    text-align: center;
+    border: 4px solid #edecec;
+    padding: 40px 20px 20px;
+    text-align: center;
+    border-radius: 24px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.tags-box::before {
+    content: '';
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(http://html.cwsthemes.com/bellaria/images/icons/widget_before.jpg);
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -43px;
+}
+.tags-box::after {
+    content: '';
+    background-image: url(http://html.cwsthemes.com/bellaria/images/icons/widget_after.jpg);
+    width: 26px;
+    height: 25px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -13px;
+}
+.tags-box h3 {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    margin-bottom: 20px;
+}
+.tags-box ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags-box ul li {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tags-box ul li a {
+    background-color:#ff91a4;
+    color: #FFF;
+    padding: 5px 12px;
+    border-radius: 24px;
+    transition: .3s ease;
+}
+.tags-box ul li a:hover {
+    background-color: #5fcac7;
+}
